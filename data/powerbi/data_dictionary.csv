@@ -1,0 +1,35 @@
+column,dtype,description
+row_id,Int64,Cleaned/derived field; see methodology.
+order_id,string,Unique customer order identifier
+order_date,datetime64[ns],Order date
+ship_date,datetime64[ns],Shipment date
+ship_mode,string,Shipping mode
+customer_id,string,Cleaned/derived field; see methodology.
+customer_name,string,Cleaned/derived field; see methodology.
+segment,string,Customer segment
+country_region,string,Cleaned/derived field; see methodology.
+city,string,City
+state_province,string,State/province
+postal_code,Int64,Cleaned/derived field; see methodology.
+region,string,US sales region
+product_id,string,Cleaned/derived field; see methodology.
+category,string,Product category
+sub_category,string,Product sub-category
+product_name,string,Cleaned/derived field; see methodology.
+sales,float64,Line sales amount
+quantity,int64,Units ordered
+discount,float64,Discount rate
+profit,float64,Line profit amount
+shipping_days,float64,Days between order and shipment
+order_year,Int64,Order year
+order_month_number,Int64,Cleaned/derived field; see methodology.
+order_month,object,Order month label
+order_quarter,object,Order quarter
+profit_margin,float64,Profit divided by sales
+sales_per_unit,float64,Cleaned/derived field; see methodology.
+profit_per_unit,float64,Cleaned/derived field; see methodology.
+discount_band,category,Binned discount rate
+order_count,int64,Cleaned/derived field; see methodology.
+Order_Sales,float64,Cleaned/derived field; see methodology.
+Order_Profit,float64,Cleaned/derived field; see methodology.
+order_aov,float64,Total sales for the order
